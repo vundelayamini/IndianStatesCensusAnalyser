@@ -9,7 +9,9 @@ namespace IndianStatesCeniusAnalyser
 
         public enum ExceptionType
         {
-            FILE_NOT_FOUND, INVALID_FILE_TYPE, INCORRECT_DELIMITER, INCORRECT_HEADER, NO_SUCH_COUNTRY
+            FILE_NOT_FOUND, INVALID_FILE_TYPE, INCORRECT_DELIMITER, INCORRECT_HEADER, NO_SUCH_COUNTRY,
+            HEADERS_MISMATCH,
+            EXTENSION_NOT_FOUND
         }
 
         public ExceptionType eType;
